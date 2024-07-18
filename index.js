@@ -82,7 +82,7 @@ const AuctionsCommand = {
 
 
     // Register the commands with Discord
-    client.guilds.cache.get('1038256817580539984').commands.set([rollDiceCommand, flipCoinCommand, warpdeepcommand, skyblock, AuctionsCommand]);
+    client.guilds.cache.get('//server ID').commands.set([rollDiceCommand, flipCoinCommand, warpdeepcommand, skyblock, AuctionsCommand]);
 });
 
 client.on('interactionCreate', async interaction => {
